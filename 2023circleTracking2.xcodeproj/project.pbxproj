@@ -14,6 +14,8 @@
 		F37E88CC2991D9F200DE1B25 /* _023circleTracking2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E88CB2991D9F200DE1B25 /* _023circleTracking2Tests.swift */; };
 		F37E88D62991D9F200DE1B25 /* _023circleTracking2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E88D52991D9F200DE1B25 /* _023circleTracking2UITests.swift */; };
 		F37E88D82991D9F200DE1B25 /* _023circleTracking2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E88D72991D9F200DE1B25 /* _023circleTracking2UITestsLaunchTests.swift */; };
+		F37E88E52991DA0900DE1B25 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E88E42991DA0900DE1B25 /* FrameView.swift */; };
+		F37E88E72991DA4800DE1B25 /* FrameHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E88E62991DA4800DE1B25 /* FrameHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		F37E88D12991D9F200DE1B25 /* 2023circleTracking2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2023circleTracking2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F37E88D52991D9F200DE1B25 /* _023circleTracking2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _023circleTracking2UITests.swift; sourceTree = "<group>"; };
 		F37E88D72991D9F200DE1B25 /* _023circleTracking2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _023circleTracking2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F37E88E42991DA0900DE1B25 /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
+		F37E88E62991DA4800DE1B25 /* FrameHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameHandler.swift; sourceTree = "<group>"; };
+		F37E88E82991DC0800DE1B25 /* -023circleTracking2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "-023circleTracking2-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +99,11 @@
 		F37E88B92991D9F200DE1B25 /* 2023circleTracking2 */ = {
 			isa = PBXGroup;
 			children = (
+				F37E88E82991DC0800DE1B25 /* -023circleTracking2-Info.plist */,
 				F37E88BA2991D9F200DE1B25 /* _023circleTracking2App.swift */,
+				F37E88E62991DA4800DE1B25 /* FrameHandler.swift */,
 				F37E88BC2991D9F200DE1B25 /* ContentView.swift */,
+				F37E88E42991DA0900DE1B25 /* FrameView.swift */,
 				F37E88BE2991D9F200DE1B25 /* Assets.xcassets */,
 				F37E88C02991D9F200DE1B25 /* Preview Content */,
 			);
@@ -257,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F37E88E52991DA0900DE1B25 /* FrameView.swift in Sources */,
 				F37E88BD2991D9F200DE1B25 /* ContentView.swift in Sources */,
+				F37E88E72991DA4800DE1B25 /* FrameHandler.swift in Sources */,
 				F37E88BB2991D9F200DE1B25 /* _023circleTracking2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,11 +430,17 @@
 				DEVELOPMENT_TEAM = 33DNUM53Q8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-023circleTracking2-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "camera required for preview";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,11 +465,17 @@
 				DEVELOPMENT_TEAM = 33DNUM53Q8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-023circleTracking2-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "camera required for preview";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
