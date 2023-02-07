@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F37E88BB2991D9F200DE1B25 /* _023circleTracking2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E88BA2991D9F200DE1B25 /* _023circleTracking2App.swift */; };
+		F37E88BD2991D9F200DE1B25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E88BC2991D9F200DE1B25 /* ContentView.swift */; };
+		F37E88BF2991D9F200DE1B25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F37E88BE2991D9F200DE1B25 /* Assets.xcassets */; };
+		F37E88C22991D9F200DE1B25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F37E88C12991D9F200DE1B25 /* Preview Assets.xcassets */; };
+		F37E88CC2991D9F200DE1B25 /* _023circleTracking2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E88CB2991D9F200DE1B25 /* _023circleTracking2Tests.swift */; };
+		F37E88D62991D9F200DE1B25 /* _023circleTracking2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E88D52991D9F200DE1B25 /* _023circleTracking2UITests.swift */; };
+		F37E88D82991D9F200DE1B25 /* _023circleTracking2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E88D72991D9F200DE1B25 /* _023circleTracking2UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F37E88C82991D9F200DE1B25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F37E88AF2991D9F100DE1B25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F37E88B62991D9F200DE1B25;
+			remoteInfo = 2023circleTracking2;
+		};
+		F37E88D22991D9F200DE1B25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F37E88AF2991D9F100DE1B25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F37E88B62991D9F200DE1B25;
+			remoteInfo = 2023circleTracking2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F37E88B72991D9F200DE1B25 /* 2023circleTracking2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2023circleTracking2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37E88BA2991D9F200DE1B25 /* _023circleTracking2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _023circleTracking2App.swift; sourceTree = "<group>"; };
+		F37E88BC2991D9F200DE1B25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F37E88BE2991D9F200DE1B25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F37E88C12991D9F200DE1B25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F37E88C72991D9F200DE1B25 /* 2023circleTracking2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2023circleTracking2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37E88CB2991D9F200DE1B25 /* _023circleTracking2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _023circleTracking2Tests.swift; sourceTree = "<group>"; };
+		F37E88D12991D9F200DE1B25 /* 2023circleTracking2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2023circleTracking2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37E88D52991D9F200DE1B25 /* _023circleTracking2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _023circleTracking2UITests.swift; sourceTree = "<group>"; };
+		F37E88D72991D9F200DE1B25 /* _023circleTracking2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _023circleTracking2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F37E88B42991D9F200DE1B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37E88C42991D9F200DE1B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37E88CE2991D9F200DE1B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F37E88AE2991D9F100DE1B25 = {
+			isa = PBXGroup;
+			children = (
+				F37E88B92991D9F200DE1B25 /* 2023circleTracking2 */,
+				F37E88CA2991D9F200DE1B25 /* 2023circleTracking2Tests */,
+				F37E88D42991D9F200DE1B25 /* 2023circleTracking2UITests */,
+				F37E88B82991D9F200DE1B25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F37E88B82991D9F200DE1B25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F37E88B72991D9F200DE1B25 /* 2023circleTracking2.app */,
+				F37E88C72991D9F200DE1B25 /* 2023circleTracking2Tests.xctest */,
+				F37E88D12991D9F200DE1B25 /* 2023circleTracking2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F37E88B92991D9F200DE1B25 /* 2023circleTracking2 */ = {
+			isa = PBXGroup;
+			children = (
+				F37E88BA2991D9F200DE1B25 /* _023circleTracking2App.swift */,
+				F37E88BC2991D9F200DE1B25 /* ContentView.swift */,
+				F37E88BE2991D9F200DE1B25 /* Assets.xcassets */,
+				F37E88C02991D9F200DE1B25 /* Preview Content */,
+			);
+			path = 2023circleTracking2;
+			sourceTree = "<group>";
+		};
+		F37E88C02991D9F200DE1B25 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F37E88C12991D9F200DE1B25 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F37E88CA2991D9F200DE1B25 /* 2023circleTracking2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F37E88CB2991D9F200DE1B25 /* _023circleTracking2Tests.swift */,
+			);
+			path = 2023circleTracking2Tests;
+			sourceTree = "<group>";
+		};
+		F37E88D42991D9F200DE1B25 /* 2023circleTracking2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F37E88D52991D9F200DE1B25 /* _023circleTracking2UITests.swift */,
+				F37E88D72991D9F200DE1B25 /* _023circleTracking2UITestsLaunchTests.swift */,
+			);
+			path = 2023circleTracking2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F37E88B62991D9F200DE1B25 /* 2023circleTracking2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F37E88DB2991D9F200DE1B25 /* Build configuration list for PBXNativeTarget "2023circleTracking2" */;
+			buildPhases = (
+				F37E88B32991D9F200DE1B25 /* Sources */,
+				F37E88B42991D9F200DE1B25 /* Frameworks */,
+				F37E88B52991D9F200DE1B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 2023circleTracking2;
+			productName = 2023circleTracking2;
+			productReference = F37E88B72991D9F200DE1B25 /* 2023circleTracking2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F37E88C62991D9F200DE1B25 /* 2023circleTracking2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F37E88DE2991D9F200DE1B25 /* Build configuration list for PBXNativeTarget "2023circleTracking2Tests" */;
+			buildPhases = (
+				F37E88C32991D9F200DE1B25 /* Sources */,
+				F37E88C42991D9F200DE1B25 /* Frameworks */,
+				F37E88C52991D9F200DE1B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F37E88C92991D9F200DE1B25 /* PBXTargetDependency */,
+			);
+			name = 2023circleTracking2Tests;
+			productName = 2023circleTracking2Tests;
+			productReference = F37E88C72991D9F200DE1B25 /* 2023circleTracking2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F37E88D02991D9F200DE1B25 /* 2023circleTracking2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F37E88E12991D9F200DE1B25 /* Build configuration list for PBXNativeTarget "2023circleTracking2UITests" */;
+			buildPhases = (
+				F37E88CD2991D9F200DE1B25 /* Sources */,
+				F37E88CE2991D9F200DE1B25 /* Frameworks */,
+				F37E88CF2991D9F200DE1B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F37E88D32991D9F200DE1B25 /* PBXTargetDependency */,
+			);
+			name = 2023circleTracking2UITests;
+			productName = 2023circleTracking2UITests;
+			productReference = F37E88D12991D9F200DE1B25 /* 2023circleTracking2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F37E88AF2991D9F100DE1B25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F37E88B62991D9F200DE1B25 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F37E88C62991D9F200DE1B25 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F37E88B62991D9F200DE1B25;
+					};
+					F37E88D02991D9F200DE1B25 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F37E88B62991D9F200DE1B25;
+					};
+				};
+			};
+			buildConfigurationList = F37E88B22991D9F100DE1B25 /* Build configuration list for PBXProject "2023circleTracking2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F37E88AE2991D9F100DE1B25;
+			productRefGroup = F37E88B82991D9F200DE1B25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F37E88B62991D9F200DE1B25 /* 2023circleTracking2 */,
+				F37E88C62991D9F200DE1B25 /* 2023circleTracking2Tests */,
+				F37E88D02991D9F200DE1B25 /* 2023circleTracking2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F37E88B52991D9F200DE1B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37E88C22991D9F200DE1B25 /* Preview Assets.xcassets in Resources */,
+				F37E88BF2991D9F200DE1B25 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37E88C52991D9F200DE1B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37E88CF2991D9F200DE1B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F37E88B32991D9F200DE1B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37E88BD2991D9F200DE1B25 /* ContentView.swift in Sources */,
+				F37E88BB2991D9F200DE1B25 /* _023circleTracking2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37E88C32991D9F200DE1B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37E88CC2991D9F200DE1B25 /* _023circleTracking2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37E88CD2991D9F200DE1B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37E88D82991D9F200DE1B25 /* _023circleTracking2UITestsLaunchTests.swift in Sources */,
+				F37E88D62991D9F200DE1B25 /* _023circleTracking2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F37E88C92991D9F200DE1B25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F37E88B62991D9F200DE1B25 /* 2023circleTracking2 */;
+			targetProxy = F37E88C82991D9F200DE1B25 /* PBXContainerItemProxy */;
+		};
+		F37E88D32991D9F200DE1B25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F37E88B62991D9F200DE1B25 /* 2023circleTracking2 */;
+			targetProxy = F37E88D22991D9F200DE1B25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F37E88D92991D9F200DE1B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F37E88DA2991D9F200DE1B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F37E88DC2991D9F200DE1B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"2023circleTracking2/Preview Content\"";
+				DEVELOPMENT_TEAM = 33DNUM53Q8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jun.-023circleTracking2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F37E88DD2991D9F200DE1B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"2023circleTracking2/Preview Content\"";
+				DEVELOPMENT_TEAM = 33DNUM53Q8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jun.-023circleTracking2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F37E88DF2991D9F200DE1B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33DNUM53Q8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jun.-023circleTracking2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2023circleTracking2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/2023circleTracking2";
+			};
+			name = Debug;
+		};
+		F37E88E02991D9F200DE1B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33DNUM53Q8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jun.-023circleTracking2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2023circleTracking2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/2023circleTracking2";
+			};
+			name = Release;
+		};
+		F37E88E22991D9F200DE1B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33DNUM53Q8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jun.-023circleTracking2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 2023circleTracking2;
+			};
+			name = Debug;
+		};
+		F37E88E32991D9F200DE1B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33DNUM53Q8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jun.-023circleTracking2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 2023circleTracking2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F37E88B22991D9F100DE1B25 /* Build configuration list for PBXProject "2023circleTracking2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37E88D92991D9F200DE1B25 /* Debug */,
+				F37E88DA2991D9F200DE1B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F37E88DB2991D9F200DE1B25 /* Build configuration list for PBXNativeTarget "2023circleTracking2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37E88DC2991D9F200DE1B25 /* Debug */,
+				F37E88DD2991D9F200DE1B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F37E88DE2991D9F200DE1B25 /* Build configuration list for PBXNativeTarget "2023circleTracking2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37E88DF2991D9F200DE1B25 /* Debug */,
+				F37E88E02991D9F200DE1B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F37E88E12991D9F200DE1B25 /* Build configuration list for PBXNativeTarget "2023circleTracking2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37E88E22991D9F200DE1B25 /* Debug */,
+				F37E88E32991D9F200DE1B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F37E88AF2991D9F100DE1B25 /* Project object */;
+}
