@@ -6,9 +6,9 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            NavigationLink(destination: FrameView(image: model.frame).ignoresSafeArea()) {
+            NavigationLink(destination: FrameView(image: model.frame).ignoresSafeArea(.all, edges: .top)) {
                 Text("start tracking")
-            }
+            } .navigationTitle("Gym Helper")
         }
         
     }

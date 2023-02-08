@@ -5,14 +5,22 @@ struct FrameView: View {
     private let label = Text("frame")
     
     var body: some View {
-
             if let image = image {
                 Image(image, scale: 1.0, orientation: .up, label: label)
-                    .resizable()
-                    .scaledToFit()
-                    
+//                        .resizable()
+//                        .scaledToFill()
+                        
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(minWidth: 0, maxWidth: .infinity)
+                .edgesIgnoringSafeArea(.all)
+                .cornerRadius(20)
+                //.scaledToFill()
+
+                
+             
             } else {
-                Color.black
+                Label("No camera signal", systemImage: "circle.slash")
             }
 
 
