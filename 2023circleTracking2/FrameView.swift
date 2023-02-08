@@ -5,23 +5,19 @@ struct FrameView: View {
     private let label = Text("frame")
     
     var body: some View {
+        ZStack {
             if let image = image {
                 Image(image, scale: 1.0, orientation: .up, label: label)
-//                        .resizable()
-//                        .scaledToFill()
-                        
                 .resizable()
-                .aspectRatio(contentMode: .fill)
+                .aspectRatio(contentMode: .fit)
                 .frame(minWidth: 0, maxWidth: .infinity)
                 .edgesIgnoringSafeArea(.all)
                 .cornerRadius(20)
-                //.scaledToFill()
-
-                
-             
             } else {
                 Label("No camera signal", systemImage: "circle.slash")
             }
+        }
+
 
 
     }
